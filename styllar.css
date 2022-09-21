@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #126d68;
+}
+/* instagram.com/Usmoxan */
+.container {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* instagram.com/Usmoxan */
+#flag {
+    margin: 50px;
+    width: 300px;
+    height: 200px;
+
+}
+/* instagram.com/Usmoxan */
+.flag_img {
+    position: relative;
+    background-image: url("images/flag.jpg");
+    background-size: 300px 100%;
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    animation: wave 1s ease-in-out infinite alternate;
+}
+/* instagram.com/Usmoxan */
+@keyframes wave {
+    0% {
+        top: 5%;
+    }
+
+    100% {
+        top: -5%;
+    }
+}
+
+/* instagram.com/Usmoxan */
